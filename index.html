@@ -10,7 +10,7 @@
 </head>
 <body class="bg-light">
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top text-uppercase">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="asset/NEMSU logo.png" alt="Logo" height="40">
@@ -21,24 +21,37 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active text-primary fw-bold" href="#about">About</a>
+                        <a class="nav-link px-lg-4" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
+                        <a class="nav-link px-lg-4" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#project">Projects</a>
+                        <a class="nav-link px-lg-4" href="#project">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#profile">Profile</a>
+                        <a class="nav-link px-lg-4" href="#profile">Profile</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+<!-- herosection -->
+   <section id="profile" class="background-color text-center py-5">
+        <div class="container mt-5 pt-5">
+          <section class="py-5 my-5 bg-white rounded shadow">
+            <div class="row">
+                <div id="main-container" class="col-lg-6"> 
+                    <h1 class="text-primary fw-bold mt-5"><small>Hello I'm</small><br>John Lloyd</h1>
+                    <p class="lead pt-3">I am a passionate web developer with a focus on creating modern and responsive websites.</p>
+                    <a href="#project" class="btn btn-primary btn-lg mt-5">View Projects</a>
+                </div>
+                <div id="img-container" class="col-lg-6">
+                    <img src="asset/profile.png" alt="Profile Image" class="img-fluid rounded-circle shadow">
+                </div>
+            </div>
+        </div>
 
     <section id="project"> <!-- Main Content -->
         <div class="container mt-5 pt-5">
@@ -49,7 +62,7 @@
                     <div class="row g-4">
                         <!-- Card 1 -->
                         <div class="col-md-4">
-                            <div class="card h-100 shadow border-0 rounded-3">
+                            <div class="card h-100 shadow border-0 rounded-3 ">
                                 <img src="asset/proj1.png" class="card-img-top" alt="Card Image 1">
                                 <div class="card-body">
                                     <h5 class="card-title text-primary">1st Sample Portfolio</h5>
@@ -92,6 +105,36 @@
                 </div>
             </section>
         </div></section>
+<!-- my skills sectiom -->
+ <section id="skills">
+    <div class="container mt-5 pt-5">
+        <section class="py-5 my-5 bg-white rounded shadow">
+            <h2 class="text-center mb-5 text-primary fw-bold border-bottom border-3 border-primary pb-3 d-inline-block mx-auto">My Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4 class="text-primary">HTML</h4>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-primary">CSS</h4>
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 85%;">85%</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="text-primary">JavaScript</h4>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 <!--contact section-->
 <section id="contact">  
     <div class="container mt-5 pt-5">
@@ -109,7 +152,7 @@
                                 </div>
                                 <div>
                                     <h3>Email</h3>
-                                    <p>jlplegario.gmail.com</p>
+                                    <p>jlplegario@gmail.com</p>
                                 </div>
                             </div>
                             <div class="contact-item">

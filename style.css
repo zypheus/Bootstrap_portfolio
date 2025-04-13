@@ -8,6 +8,45 @@
     --section-bg: #f9f9f9;
     --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+/* navigation */
+.nav-link{
+    color: var(--text-color);
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.5em;
+}
+.nav-link:hover{
+    color: white;
+    background-color: #000;
+    text-decoration: underline;
+    border-radius: 4px;
+}
+/* herosection */
+
+#main-container h1 small{
+    font-size: .5em;
+    color: var(--text-color);
+    font-weight: 1200;
+}
+#main-container h1{
+    font-size: 3.5em;
+    color: var(--text-color);
+    font-weight: 1200;
+}
+/* my skills section */
+#skills section{
+padding: 2em;
+}
+#skills img{
+    width: 120px;
+    height: 120px;
+    margin: 3em;
+}
+#img-container{
+ padding: 4em;
+}
+
 /*main contact*/
 .main_contact{
     display: flex;
