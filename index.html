@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="bg-light">
     <!-- Navigation Bar -->
@@ -38,28 +39,28 @@
     </nav>
 
 <!-- herosection -->
-   <section id="profile" class="background-color text-center py-5">
+   <section class="background-color text-center py-5">
         <div class="container mt-5 pt-5">
-          <section class="py-5 my-5 bg-white rounded shadow">
+          <section id="profile" class="py-5 my-5 bg-white rounded shadow">
             <div class="row">
                 <div id="main-container" class="col-lg-6"> 
-                    <h1 class="text-primary fw-bold mt-5"><small>Hello I'm</small><br>John Lloyd</h1>
-                    <p class="lead pt-3">I am a passionate web developer with a focus on creating modern and responsive websites.</p>
+                    <h1 class="text-primary fw-bold mt-5" ><small>Hello I'm</small><br>John Lloyd</h1>
+                    <p class="lead pt-3" data-aos="fade-left" data-aos-duration="1000">I am a passionate web developer with a focus on creating modern and responsive websites.</p>
                     <a href="#project" class="btn btn-primary btn-lg mt-5">View Projects</a>
                 </div>
-                <div id="img-container" class="col-lg-6">
-                    <img src="asset/profile.png" alt="Profile Image" class="img-fluid rounded-circle shadow">
+                <div id="img-container" class="col-lg-6" data-aos="zoom-out" data-aos-duration="1000">
+                    <img src="asset/profile.png" alt="Profile Image" class="img-fluid rounded-circle shadow" data-aos="zoom-in" data-aos-duration="1000">
                 </div>
             </div>
         </div>
 
-    <section id="project"> <!-- Main Content -->
+    <section> <!-- Main Content -->
         <div class="container mt-5 pt-5">
             <!-- Featured Cards Section -->
-            <section class="py-5 my-5 bg-white rounded shadow">
+            <section id="project" class="py-5 my-5 bg-white rounded shadow">
                 <div class="container">
                     <h2 class="text-center mb-5 text-primary fw-bold border-bottom border-3 border-primary pb-3 d-inline-block mx-auto">Featured Projects</h2>
-                    <div class="row g-4">
+                    <div class="row g-4" data-aos="fade-up" data-aos-duration="1000">
                         <!-- Card 1 -->
                         <div class="col-md-4">
                             <div class="card h-100 shadow border-0 rounded-3 ">
@@ -109,36 +110,36 @@
  <section id="skills">
     <div class="container mt-5 pt-5">
         <section class="py-5 my-5 bg-white rounded shadow">
-            <h2 class="text-center mb-5 text-primary fw-bold border-bottom border-3 border-primary pb-3 d-inline-block mx-auto">My Skills</h2>
+            <h2 class="text-center mb-5 text-primary fw-bold border-bottom border-3 border-primary pb-3 d-inline-block mx-auto">My Skills</h2>             
             <div class="row">
-                <div class="col-md-4"> 
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000"> 
                     <h4 class="text-primary">HTML</h4>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 90%;">90%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 80%;">80%</div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-duration="1000">
                     <h4 class="text-primary">CSS</h4>
                             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 85%;">85%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar" style="width: 75%;">75%</div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
                     <h4 class="text-primary">JavaScript</h4>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
                     <div class="progress">
-                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 80%;">80%</div>
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 50%;">50%</div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
 <!--contact section-->
-<section id="contact">  
+<section >  
     <div class="container mt-5 pt-5">
-        <section class="py-5 my-5 bg-white rounded shadow">
+        <section id="contact"  class="py-5 my-5 bg-white rounded shadow">
             <h2 class="text-center mb-5 text-primary fw-bold border-bottom border-3 border-primary pb-3 d-inline-block mx-auto">Contact Me</h2>
             <div class="main_contact">
                 <div class="Contact_container1">
@@ -207,7 +208,7 @@
                         </div>
                 </div>
                      <!-- From Uiverse.io by DavidTM96 --> 
-                    <div class="form-card1">
+                    <div class="form-card1 " data-aos="flip-left" data-aos-duration="1000">
                         <div class="form-card2">
                         <form class="form">
                             <p class="form-heading">Get In Touch</p>
@@ -346,6 +347,9 @@
     <!-- Footer -->
     <!-- Bootstrap scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
