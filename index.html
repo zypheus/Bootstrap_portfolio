@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="bg-light">
+
+    <!-- LOADER ANIMATION -->
+    <div class="loader-wrapper">
+        <div class="spinner-grow text-primary m-5" role="status">
+            <span class="sr-only">Loading...</span>
+         </div>
+    </div>
+
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top text-uppercase">
         <div class="container">
@@ -44,11 +52,11 @@
           <section id="profile" class="py-5 my-5 bg-white rounded shadow">
             <div class="row">
                 <div id="main-container" class="col-lg-6"> 
-                    <h1 class="text-primary fw-bold mt-5" ><small>Hello I'm</small><br>John Lloyd</h1>
-                    <p class="lead pt-3" data-aos="fade-left" data-aos-duration="1000">I am a passionate web developer with a focus on creating modern and responsive websites.</p>
-                    <a href="#project" class="btn btn-primary btn-lg mt-5">View Projects</a>
+                    <h1 class="text-primary fw-bold mt-5" data-aos="fade-down" data-aos-duration="2500" ><small>Hello I'm</small><br>John Lloyd</h1>
+                    <p class="lead pt-3" data-aos="fade-right" data-aos-duration="2000">I am a passionate web developer with a focus on creating modern and responsive websites.</p>
+                    <a href="#project" class="btn btn-primary btn-lg mt-5" data-aos="zoom-out" data-aos-duration="900">View Projects</a>
                 </div>
-                <div id="img-container" class="col-lg-6" data-aos="zoom-out" data-aos-duration="1000">
+                <div id="img-container" class="col-lg-6" data-aos="zoom-in" data-aos-duration="3000">
                     <img src="asset/profile.png" alt="Profile Image" class="img-fluid rounded-circle shadow" data-aos="zoom-in" data-aos-duration="1000">
                 </div>
             </div>
@@ -351,5 +359,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="scypt.js"></script>
 </body>
 </html>
